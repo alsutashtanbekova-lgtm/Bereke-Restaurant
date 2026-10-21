@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Даамдуу Кафе | Кафе жана ресторан</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">
+            <span class="logo-icon">☕</span>
+            Даамдуу Кафе
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" type="button"
+                aria-label="Менюну ачуу" aria-expanded="false" aria-controls="mainNav">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav class="navbar" id="mainNav">
+            <a href="#home">Башкы бет</a>
+            <a href="#about">Биз жөнүндө</a>
+            <a href="#houses">Меню</a>
+            <a href="#services">Кызматтар</a>
+            <a href="#booking" class="nav-btn">Стол брондоо ↗</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="hero-tag">✦ ДААМ · САПАТ · ЖЫЛУУ МААНАЙ</span>
+            <h1>Даамдуу тамактар<br><span>жылуу маанайда</span></h1>
+            <p>
+                Жакындарыңыз менен жагымдуу убакыт өткөрүп,
+                сүйүктүү тамактарыңыздан даам татыңыз.
+                Сизди жайлуу кафебизде күтөбүз!
+            </p>
+            <div class="hero-buttons">
+                <a href="#houses" class="btn">Менюну көрүү ↗</a>
+                <a href="#about" class="btn btn-outline">Биз жөнүндө</a>
+            </div>
+        </div>
+
+        <div class="hero-bottom">
+            <div class="hero-info">
+                <span>🍲</span>
+                <div><h3>Даамдуу тамактар</h3><p>Жаңы даярдалат</p></div>
+            </div>
+            <div class="hero-info">
+                <span>☕</span>
+                <div><h3>Жайлуу атмосфера</h3><p>Жылуу маанай</p></div>
+            </div>
+            <div class="hero-info">
+                <span>💚</span>
+                <div><h3>Сиз үчүн кам көрүү</h3><p>Ар бир конок маанилүү</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1000&q=85"
+                 alt="Кафедеги кооз дасторкон">
+        </div>
+
+        <div class="about-content">
+            <span class="section-tag">БИЗ ЖӨНҮНДӨ</span>
+            <h2>Даам менен<br><span>жылуу маанай</span></h2>
+            <p>
+                «Даамдуу Кафе» — үй-бүлөңүз жана досторуңуз менен
+                жолугуп, даамдуу тамактардан ырахат ала турган жай.
+                Биз конокторубузга жагымдуу тейлөө жана жайлуу атмосфера
+                тартуулоого аракет кылабыз.
+            </p>
+            <ul>
+                <li>✓ Даамдуу жана жаңы даярдалган тамактар</li>
+                <li>✓ Үй-бүлө жана достор менен отурууга ыңгайлуу</li>
+                <li>✓ Жагымдуу тейлөө жана жайлуу атмосфера</li>
+            </ul>
+            <a href="#booking" class="btn">Стол брондоо ↗</a>
+        </div>
+    </section>
+
+    <section class="houses" id="houses">
+        <div class="section-heading">
+            <span class="section-tag">БИЗДИН МЕНЮ</span>
+            <h2>Сүйүктүү даамдарыңыз</h2>
+            <p>Менюдан өзүңүзгө жаккан тамакты тандаңыз.</p>
+        </div>
+
+        <div class="house-container">
+            <article class="house-card">
+                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80"
+                     alt="Улуттук тамак">
+                <div class="house-info">
+                    <span class="house-label">🍲 Улуттук даам</span>
+                    <h3>Улуттук тамактар</h3>
+                    <p>Салттуу даамдар менен даярдалган тамактар.</p>
+                    <div class="house-bottom">
+                        <strong>250 сом <small>/ баштап</small></strong>
+                        <a href="#booking" class="card-btn">Тандоо ↗</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="house-card">
+                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80"
+                     alt="Ысык тамак">
+                <div class="house-info">
+                    <span class="house-label">🍛 Ысык тамак</span>
+                    <h3>Ысык тамактар</h3>
+                    <p>Күн сайын жаңы даярдалган даамдуу тамактар.</p>
+                    <div class="house-bottom">
+                        <strong>200 сом <small>/ баштап</small></strong>
+                        <a href="#booking" class="card-btn">Тандоо ↗</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="house-card">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"
+                     alt="Кофе жана суусундук">
+                <div class="house-info">
+                    <span class="house-label">☕ Суусундуктар</span>
+                    <h3>Кофе жана суусундуктар</h3>
+                    <p>Тамагыңызга кошумча жагымдуу суусундуктар.</p>
+                    <div class="house-bottom">
+                        <strong>100 сом <small>/ баштап</small></strong>
+                        <a href="#booking" class="card-btn">Тандоо ↗</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="section-heading">
+            <span class="section-tag">СИЗ ҮЧҮН</span>
+            <h2>Биздин кызматтар</h2>
+            <p>Сиздин жагымдуу убакыт өткөрүшүңүз үчүн.</p>
+        </div>
+
+        <div class="service-container">
+            <div class="service-card">
+                <span>🍽️</span>
+                <h3>Даамдуу меню</h3>
+                <p>Ар түрдүү тамактар жана суусундуктар.</p>
+            </div>
+            <div class="service-card">
+                <span>🪑</span>
+                <h3>Стол брондоо</h3>
+                <p>Келериңизге чейин столго орун брондоңуз.</p>
+            </div>
+            <div class="service-card">
+                <span>🎉</span>
+                <h3>Майрамдык жолугушуу</h3>
+                <p>Жакындарыңыз менен өзгөчө күндөрдү белгилеңиз.</p>
+            </div>
+            <div class="service-card">
+                <span>🚗</span>
+                <h3>Унаа токтотуучу жай</h3>
+                <p>Коноктор үчүн ыңгайлуу унаа токтотуучу жай.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking" id="booking">
+        <div class="section-heading">
+            <span class="section-tag">БИЗГЕ КЕЛИҢИЗ</span>
+            <h2>Стол брондоо</h2>
+            <p>Маалыматыңызды толтуруңуз.</p>
+        </div>
+
+        <form class="booking-form" id="bookingForm">
+            <input type="text" id="name" placeholder="Атыңыз" required>
+            <input type="tel" id="phone" placeholder="Телефон номериңиз" required>
+
+            <select id="house" required>
+                <option value="">Менюдан тандаңыз</option>
+                <option value="Улуттук тамактар">Улуттук тамактар</option>
+                <option value="Ысык тамактар">Ысык тамактар</option>
+                <option value="Кофе жана суусундуктар">Кофе жана суусундуктар</option>
+                <option value="Стол брондоо">Стол брондоо</option>
+            </select>
+
+            <label for="date">Келүү күнү</label>
+            <input type="date" id="date" required>
+
+            <textarea id="details" placeholder="Коноктордун саны же кошумча маалымат"></textarea>
+
+            <button type="submit" class="btn">Брондоо өтүнүчүн даярдоо ↗</button>
+            <p id="message"></p>
+            <button type="button" id="copyBooking" hidden>Билдирүүнү көчүрүү</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <a href="#home" class="logo">
+            <span class="logo-icon">☕</span>Даамдуу Кафе
+        </a>
+        <p>Даамдуу тамактар жана жылуу маанай.</p>
+
+        <div class="footer-links">
+            <a href="#home">Башкы бет</a>
+            <a href="#about">Биз жөнүндө</a>
+            <a href="#houses">Меню</a>
+            <a href="#booking">Стол брондоо</a>
+        </div>
+
+        <p class="copyright">© 2026 Даамдуу Кафе. Бардык укуктар корголгон.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
